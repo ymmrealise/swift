@@ -1,7 +1,7 @@
 % include("header.tpl")
 % include("banner.tpl")
-LOGIN
+LOGIN FAILURE
 <p>{{user}}</p>
-<p>logged in using password</p> 
+<p>failed to login using password</p> 
 <p>{{password}}</p>
 % include("footer.tpl")
